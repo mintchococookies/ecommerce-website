@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #19171a;
+  margin: 0;
+  background-color: #f6f6f2;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3,
+h4 {
+  text-align: center;
+}
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+}
+input[type="number"] {
+  padding-left: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"] {
+  width: 30%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+#logo {
+  border-radius: 100%;
+  margin: 10px;
+  height: 75%;
+}
+#collections-div,
+#hotsellers-div,
+#aboutus-div,
+#order-div {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#payment-item-flex {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  max-width: 35%;
+  min-width: 35%;
+  max-height: 15%;
+  min-height: 15%;
+}
+#signup-form label,
+#login-form label,
+#payment-form label,
+#address-label {
+  display: inline-block;
+  text-align: left;
+  width: 30%;
+}
+#address-label,
+#cardhold_name {
+  width: 100%;
+}
+#address_line1,
+#address_line2,
+#address_line3 {
+  margin-bottom: 0px;
+  width: 100%;
+}
+#address_line3 {
+  margin-bottom: 30px;
+}
+#order-field,
+.form-center {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+#town,
+#postcode,
+#delivery_date,
+#delivery_time {
+  width: 100%;
+}
+#contact_number,
+#cardnumber,
+#postcode {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+#expdate,
+#cvc {
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+#welcome {
+  text-align: center;
+  font-size: 0.9em;
+  margin-bottom: 50px;
+}
+#welcome-message,
+#please-login {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#quantity {
+  width: 5em;
+  height: 2em;
+}
+#add-more-items {
+  font-size: small;
+}
+#add-more-items:hover {
+  color: #efb7ba;
+}
+#login-message {
+  width: 40%;
+}
+#order-confirmed-item {
+  background-color: white;
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+  padding: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 35%;
+  margin: 30px auto;
+  min-height: 80%;
+}
+#confirmed-image {
+  width: 15%;
+  height: 15%;
+}
+
+.pink {
+  background-color: #efb7ba;
+}
+.blue {
+  background-color: #e2f0f9;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+.line-break,
+#order-field {
+  width: 100%;
+}
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.collection-flex,
+.catalogue-flex {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.collection-item {
+  height: 120px;
+  width: 50%;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 120px;
+  color: black;
+  text-decoration: none;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+.hotsellers-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hotsellers-item,
+.catalogue-item {
+  width: 25%;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  /* transition: transform 1.0s; */
+  transition: all 0.1s ease-in-out;
+}
+.order-flex,
+.delivery-flex,
+.payment-flex {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.order-flex {
+  flex-wrap: wrap;
+}
+.payment-flex {
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.payment-item {
+  width: 50%;
+}
+.payment-image {
+  float: left;
+}
+.order-item {
+  width: 50%;
+  padding-top: 30px;
+}
+.hotsellers-item img,
+.catalogue-item img,
+.order-item img,
+.payment-item img {
+  border-radius: 10px;
+}
+.aboutus {
+  text-align: justify;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-banner {
+  text-align: center;
+  background-color: #efb7ba;
+  font-size: 15px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 30px;
+}
+.footer,
+.login-footer {
+  width: 100%;
+}
+.login-footer {
+  margin-top: auto;
+  height: 50%;
+}
+.signup-btn,
+.login-btn,
+.order-btn,
+.cancel-btn,
+.back-btn {
+  align-items: center;
+  padding: 10px 18px;
+  background-color: #e2f0f9;
+  border-radius: 5px;
+  margin-top: 30px;
+  text-align: center;
+}
+.back-btn {
+  border: 0px;
+  color: white;
+  font-weight: bold;
+  background-color: #a3cfed;
+}
+.cancel-btn {
+  background-color: #efb7ba;
+}
+.center {
+  margin: auto;
+  display: block;
+}
+.form-center,
+.button {
+  text-align: center;
+}
+.button-flex {
+  display: flex;
+  justify-content: center;
+}
+.button-flex button {
+  margin: 20px;
+}
+.delivery-flex,
+.form-center {
+  width: 40%;
+}
+.delivery-flex {
+  justify-content: start;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  flex: 1;
+}
+.card-flex {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-item {
+  width: 50%;
+}
+.error,
+#login-message {
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: center;
+}
+.order-cake-description {
+  font-size: 0.9em;
+}
+.total {
+  justify-content: center;
+}
+
+.cancel-btn,
+.order-btn,
+.login-btn,
+.signup-btn {
+  transition: background 0.3s;
+}
+
+.catalogue-item:hover,
+.hotsellers-item:hover,
+.collection-item:hover {
+  transform: scale(1.05);
+}
+
+.cancel-btn:hover {
+  background: #e68d92;
+}
+
+.order-btn:hover,
+.login-btn:hover,
+.signup-btn:hover {
+  background: #badcee;
+}
+
+#signup-link:hover {
+  color: #eb9fce;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="textarea"]:focus,
+input[type="checkbox"]:focus {
+  cursor: pointer;
+}
+
+nav > a:hover {
+  color: #19171a;
+  transition: background 0.3s;
+}
