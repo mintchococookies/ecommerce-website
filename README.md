@@ -25,3 +25,12 @@ Prototype of an e-commerce website written in HTML, PHP, JavaScript, and CSS. Ho
 
 7. **Order Placement and Cart Clearance**
    - After the customer has placed an order, their cart is cleared of all items, and they are shown an order confirmation message.
+
+8. **Forms**
+   - Web forms are implemented for user registration and login, allowing users to enter their data conveniently.
+
+9. **Error Handling**
+   - The website includes robust error handling mechanisms to provide clear and informative messages to users in case of incorrect inputs or other errors.
+
+10. **PHP Sessions**
+    - PHP sessions are used to manage user sessions, ensuring that user data is maintained across different pages of the website and enhancing user experience.
